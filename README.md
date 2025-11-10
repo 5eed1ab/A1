@@ -41,6 +41,28 @@
 ```
 ## [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
 ## [C](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+character.c
+```
+#include <stdio.h>
+
+int main(){
+  char character='!';va_list
+  
+  while (character < 64) {
+   //printf(" %c %07b %x %3d \n", character,character,character,character);
+   printf("%3d %x %07b %c | %3d %x %07b %c | %3d %x %07b %c\n",
+    character,character,character,character,
+    character+32,character+32,character+32,character+32,
+    character+64,character+64,character+64,character+64);
+   character++;
+  }
+  if (character > 63)
+    printf("%3d %x %07b %c | %3d %x %07b %c |\n",
+     character,character,character,character,
+     character+32,character+32,character+32,character+32);        
+  return 0;
+}
+```
 ## [Drone](https://docs.drone.io)
 ## [Editor](https://en.wikipedia.org/wiki/Text_editor)
 ## [Files](https://en.wikipedia.org/wiki/Computer_file)
