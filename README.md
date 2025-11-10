@@ -46,7 +46,7 @@ character.c
 #include <stdio.h>
 
 int main(){
-  char character='!';va_list
+  char character='!';
   
   while (character < 64) {
    //printf(" %c %07b %x %3d \n", character,character,character,character);
