@@ -1,8 +1,22 @@
-# A1
-![A1](https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111912_mac-mini-2018.jpeg)
+# [A1](https://support.apple.com/en-us/111926)
+![A1](a1.jpg)
+- 2.6GHz quad-core Intel Core i7 (Turbo Boost up to 3.6GHz)
+- 16GB (two 8GB) of 1600MHz DDR3 memory
+- 1TB (5400-rpm) hard drive
+- 2TB SSD Crucial
 
-
-[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) in [MAC_address](https://en.wikipedia.org/wiki/MAC_address) from [freeBSD tftp test](https://www.youtube.com/watch?v=yU16qpnj5jo)
+## Catalina
+-  macOS 10.15 Catalina, from 2019, is the last supported. 
+- [In which month or year Catalina will stop to be supported ?](https://discussions.apple.com/thread/255619465)
+ 
+## Omarchy
+- time to try installing omarchy on it
+- [The Omarchy Manual](https://learn.omacom.io/2/the-omarchy-manual)
+```
+curl -O https://iso.omarchy.org/omarchy-3.1.7.iso
+diskutil list # what disk is usb?
+sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
+```
 
 ## [ASCII](https://en.wikipedia.org/wiki/ASCII)
 ```
@@ -68,3 +82,8 @@ int main(){
 ## [Files](https://en.wikipedia.org/wiki/Computer_file)
 ## [Gutenberg](https://github.com/5eed1ab/Gutenberg)
 ## [htmx](https://htmx.org)
+
+
+
+
+- [Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) in [MAC_address](https://en.wikipedia.org/wiki/MAC_address) from [freeBSD tftp test](https://www.youtube.com/watch?v=yU16qpnj5jo)
