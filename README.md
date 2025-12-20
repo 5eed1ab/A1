@@ -18,7 +18,7 @@ diskutil list # what disk is usb?
 sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 ```
 ## [A1](https://github.com/5eed1ab/A1)
-`clang -o a1`
+`clang -o a1 a1.c`
 
 `./a1`
 ```
