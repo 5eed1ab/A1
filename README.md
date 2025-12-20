@@ -24,6 +24,10 @@ sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 ```
 Hello World
 ```
+### read the man pages:
+- man 3 stdio
+- man 3 printf
+- man ascii
 ## [ASCII](https://en.wikipedia.org/wiki/ASCII)
 ```
  33 21 0100001 ! |  65 41 1000001 A |  97 61 1100001 a
