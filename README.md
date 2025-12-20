@@ -27,8 +27,8 @@ sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 #### printf format specifiers and escape sequences
 | format | description |
 |-------:|:------------|
-s        | The char * argument is expected to be a pointer to an array of character type (pointer to a string).  Characters from the array are written up to (but not including) a terminating NUL character; if a precision is specified, no more than the number specified are written.  If a precision is given, no null character need be present; if the precision is not specified, or is greater than the size of the array, the array must contain a terminating NUL character.|
-c        | The int argument is converted to an unsigned char, and the resulting character is written.
+%s       | The char * argument is expected to be a pointer to an array of character type (pointer to a string).  Characters from the array are written up to (but not including) a terminating NUL character; if a precision is specified, no more than the number specified are written.  If a precision is given, no null character need be present; if the precision is not specified, or is greater than the size of the array, the array must contain a terminating NUL character.|
+%c       | The int argument is converted to an unsigned char, and the resulting character is written.
 \n       | The ASCII value 10 represents the Line Feed (LF) control character, often shown as `\n`, used to start a new line in text
 
 `gcc -o a1 a1.c`
