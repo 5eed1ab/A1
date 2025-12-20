@@ -17,7 +17,13 @@ curl -O https://iso.omarchy.org/omarchy-3.1.7.iso
 diskutil list # what disk is usb?
 sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 ```
+## [A1](https://github.com/5eed1ab/A1)
+`clang -o a1`
 
+`./a1`
+```
+Hello World
+```
 ## [ASCII](https://en.wikipedia.org/wiki/ASCII)
 ```
  33 21 0100001 ! |  65 41 1000001 A |  97 61 1100001 a
