@@ -12,7 +12,7 @@ C does not have a String type to easily create string variables.
 printf() Shenanigans
 
 %s  The char * argument is expected to be a pointer to an array of character 
-    type (pointer to astring).  Characters from the array are written up to 
+    type (pointer to a string).  Characters from the array are written up to 
     (butnot including) a terminating NUL character; if a precision is 
     specified, no more than the number specified are written.  If a precision 
     is given, no null character need be present; if the precision is not 
