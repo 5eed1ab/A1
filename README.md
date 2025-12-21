@@ -31,7 +31,10 @@ sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 %c       | The int argument is converted to an unsigned char, and the resulting character is written.
 \n       | The ASCII value 10 represents the Line Feed (LF) control character, often shown as `\n`, used to start a new line in text
 
-`gcc -o a1 a1.c`
+`make`
+```
+cc a1.c -o a1
+```
 
 `./a1`
 ```
