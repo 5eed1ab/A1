@@ -40,7 +40,13 @@ cc a1.c -o a1
 ```
 Hello, is there anybody in there?
 ```
-### read the man pages:
-- man 3 stdio
-- man 3 printf
-- man ascii
+### Read the man pages
+man command  | Description
+|------------|-------------|
+man less     | less - opposite of more
+man man      | the man utility finds and displays online manual documentation pages
+man make     | to determine automatically which pieces of a large program need to be recompiled
+man ascii    | ascii – octal, hexadecimal and decimal ASCII character sets
+man printf   | printf – formatted output
+man 3 printf | the printf() family of functions produces output according to a format as described below.
+man 3 stdio  | the standard I/O library provides a simple and efficient buffered stream I/O interface.

@@ -22,6 +22,15 @@ printf() Shenanigans
     character is written.
 \n  The ASCII value 10 represents the Line Feed (LF) control character, often 
     shown as `\n`, used to start a new line in text
+
+The man utility finds and displays online manual documentation pages.
+man less
+man man
+man make
+man ascii
+man printf
+man 3 printf
+man 3 stdio
 ******************************************************************************/
 
 int main(){
