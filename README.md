@@ -35,7 +35,7 @@ sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 |-------:|:------------|
 %s       | The char * argument is expected to be a pointer to an array of character type (pointer to a string).  Characters from the array are written up to (but not including) a terminating NUL character; if a precision is specified, no more than the number specified are written.  If a precision is given, no null character need be present; if the precision is not specified, or is greater than the size of the array, the array must contain a terminating NUL character.|
 %c       | The int argument is converted to an unsigned char, and the resulting character is written.
-%d       | Transfer integer data, w is the total width, m is the minimum number of non-blank digits. There is no difference between the lowercase and uppercase forms. The %d forms are identical to the %i forms and are provided for programmers familiar with C's printf.
+%d, %i       | The int argument is converted to signed decimal notation. The precision, if any, gives the minimum number of digits that must appear; if the converted value requires fewer digits, it is padded on the left with zeros.  The default precision is 1.  When 0 is printed with an explicit precision 0, the output is empty.
 %p       | The void * pointer argument is printed in hexadecimal 
 \n       | The ASCII value 10 represents the Line Feed (LF) control character, often shown as `\n`, used to start a new line in text
 
@@ -47,7 +47,7 @@ format a table with character `%c`, decimal `%d`, and use pointer`%p` to display
 |string[]     | string[0]=S | string[1]=t | string[2]=r | string[3]=i | string[4]=n | string[5]=g | string[6]=\0|
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |decimal      |      83     |     116     |     114     |     105     |     110     |     103     |       0     |
-|address      | 0x16b562f14 | 0x16b562f15 | 0x16b562f16 | 0x16b562f17 | 0x16b562f18 | 0x16b562f19 | 0x16b562f1a |
+|address      | 0x16eff2f14 | 0x16eff2f15 | 0x16eff2f16 | 0x16eff2f17 | 0x16eff2f18 | 0x16eff2f19 | 0x16eff2f1a |
 
 `make`
 ```
@@ -61,7 +61,7 @@ Hello, is there anybody in there?
 |string[]     | string[0]=S | string[1]=t | string[2]=r | string[3]=i | string[4]=n | string[5]=g | string[6]=\0|
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |decimal      |      83     |     116     |     114     |     105     |     110     |     103     |       0     |
-|address      | 0x16fa62f14 | 0x16fa62f15 | 0x16fa62f16 | 0x16fa62f17 | 0x16fa62f18 | 0x16fa62f19 | 0x16fa62f1a |
+|address      | 0x16f62af14 | 0x16f62af15 | 0x16f62af16 | 0x16f62af17 | 0x16f62af18 | 0x16f62af19 | 0x16f62af1a |
 ```
 ### Read the man pages
 man          | Description
