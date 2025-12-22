@@ -50,9 +50,9 @@ man 3 stdio
 ******************************************************************************/
 
 int main(){
-    int i;
+    int i =0;
     char character = 63;  // could have been = '?'                           */
-    char characters[] = "Hello, is there anybody in there";
+    char characters[] = "Hello, is there a s in string[]";
     printf("%s%c\n\n",characters,character);
     // String Shenanigans                                                    */
     char string[]="String";

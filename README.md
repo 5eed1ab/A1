@@ -1,4 +1,12 @@
 # [A1](https://support.apple.com/en-us/111926)
+The ABCs of computing
+- A
+  - ASCII (American Standard Code for Information Interchange) is a fundamental character encoding standard that assigns unique numbers (0-127) to 128 basic characters—including English letters (A-Z, a-z), digits (0-9), punctuation, and control codes—allowing computers and devices to communicate and display text universally, forming the basis for modern encoding like Unicode.
+- B 
+  - Bit manipulation is the process of algorithmically changing bits, the smallest units of data in a computer
+- C 
+  - The C programming language is a powerful, general-purpose, procedural language developed in the early 1970s by Dennis Ritchie at Bell Labs. It is widely influential and remains one of the most popular programming languages, primarily used for system-level programming where performance and low-level memory access are critical. 
+
 ![A1](a1.jpg)
 - 2.6GHz quad-core Intel Core i7 (Turbo Boost up to 3.6GHz)
 - 16GB (two 8GB) of 1600MHz DDR3 memory
@@ -56,7 +64,7 @@ gcc a1.c -o a1
 
 `./a1`
 ```
-Hello, is there anybody in there?
+Hello, is there a s in string[]?
 
 |string[]     | string[0]=S | string[1]=t | string[2]=r | string[3]=i | string[4]=n | string[5]=g | string[6]=\0|
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
