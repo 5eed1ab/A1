@@ -47,7 +47,7 @@ format a table with character `%c`, decimal `%d`, and use pointer`%p` to display
 |string[]     | string[0]=S | string[1]=t | string[2]=r | string[3]=i | string[4]=n | string[5]=g | string[6]=\0|
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |decimal      |      83     |     116     |     114     |     105     |     110     |     103     |       0     |
-|address      | 0x16eff2f14 | 0x16eff2f15 | 0x16eff2f16 | 0x16eff2f17 | 0x16eff2f18 | 0x16eff2f19 | 0x16eff2f1a |
+|address      | 0x16b0e6f14 | 0x16b0e6f15 | 0x16b0e6f16 | 0x16b0e6f17 | 0x16b0e6f18 | 0x16b0e6f19 | 0x16b0e6f1a |
 
 `make`
 ```
@@ -61,7 +61,7 @@ Hello, is there anybody in there?
 |string[]     | string[0]=S | string[1]=t | string[2]=r | string[3]=i | string[4]=n | string[5]=g | string[6]=\0|
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 |decimal      |      83     |     116     |     114     |     105     |     110     |     103     |       0     |
-|address      | 0x16f62af14 | 0x16f62af15 | 0x16f62af16 | 0x16f62af17 | 0x16f62af18 | 0x16f62af19 | 0x16f62af1a |
+|address      | 0x16b0e6f14 | 0x16b0e6f15 | 0x16b0e6f16 | 0x16b0e6f17 | 0x16b0e6f18 | 0x16b0e6f19 | 0x16b0e6f1a |
 ```
 ### Read the man pages
 man          | Description

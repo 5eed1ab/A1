@@ -16,6 +16,9 @@ C does not have a String type to easily create string variables.
 `for` loop loops through a block of code a number of times.
 - for(i=0;i<=7;i++)
 
+`while` loop repeats a block of code as until a specified condition is meet
+- while(string[i] != '\0')
+
 printf() Shenanigans
 
 %s      The char * argument is expected to be a pointer to an array of 
@@ -56,8 +59,12 @@ int main(){
 
     // String[] index and character is printed                               */
     printf("|string[]     |");
-    for(i=0;i<=5;i++) 
+
+    while(string[i] != '\0') { 
         printf(" string[%i]=%c |",i,string[i]);
+        i++;
+    }
+
     printf(" string[6]=\\0|\n");
 
     // center-align the column                                               */
