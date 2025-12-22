@@ -18,7 +18,7 @@ diskutil list # what disk is usb?
 sudo dd if=omarchy-3.1.7.iso of=/dev/usb_disk bs=1M conv=sync
 ```
 ## [a1.c](https://github.com/5eed1ab/A1/blob/main/a1.c)
-### a1.c modified to use `%s`, `%c`, `%d`, `%p` and `\n` in printf
+### a1.c modified to use `%s`, `%c`, `%d`,`%i` `%p` and `\n` in printf
 - `int` is a data type which stores whole numbers 
   - `int i`
 - `char` is a byte storing a single ASCII value like '?' or 63
