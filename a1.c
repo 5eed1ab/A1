@@ -50,41 +50,54 @@ man 3 stdio
 ******************************************************************************/
 
 int main(){
-    int i =0;
-    char character = 63;  // could have been = '?'                           */
-    char characters[] = "Hello, is there a s in string[]";
-    printf("%s%c\n\n",characters,character);
-    // String Shenanigans                                                    */
+    int i = 0;
+    float pi = 3.14159265359;
+    char character = 115;  // could have been = 's'                          */
     char string[]="String";
 
-    // String[] index and character is printed                               */
-    printf("|string[]     |");
-
-    while(string[i] != '\0') { 
-        printf(" string[%i]=%c |",i,string[i]);
-        i++;
+    //character ^= ' ';
+    //character &= ~(1 << 5);
+    
+    if (character==string[i])
+        printf("There is a %c in string[%i]\n",character,i);    
+    else if (character=='A') {
+        do {
+            printf("%c ",character);
+            character++;
+        }
+        while(character<='Z');
+        printf("\n");
     }
+    else {
+        printf("There is no %c in string[%i]\n\n",character,i);
+    // string[] index and character is printed                               */
+        printf("|string[]     |");
 
-    printf(" string[6]=\\0|\n");
+        while(string[i] != '\0') { 
+            printf(" string[%i]=%c |",i,string[i]);
+            i++;
+        }
 
-    // center-align the column                                               */
-    for(i=0;i<=7;i++)
-         printf("|:-----------:");
-    printf("|\n");
+        printf(" string[6]=\\0|\n");
 
-    // String[] decimal is printed                                           */
-    printf("|decimal      |");
+        // center-align the column                                           */
+        for(i=0;i<=7;i++)
+            printf("|:-----------:");
+        printf("|\n");
 
-    for(i=0;i<=6;i++)
-        printf("%8d     |",string[i]);
-    printf("\n");
+        // string[] decimal is printed                                       */
+        printf("|decimal      |");
 
-    // String[] address is printed                                           */
-    printf("|address      |");
+        for(i=0;i<=6;i++)
+            printf("%8d     |",string[i]);
+        printf("\n");
 
-    for(i=0;i<=6;i++)
-        printf("%12p |",(void*)&string[i]);
-    printf("\n");
+        // string[] address is printed                                       */
+        printf("|address      |");
 
+        for(i=0;i<=6;i++)
+            printf("%12p |",(void*)&string[i]);
+        printf("\n");
+        }
     return 0;
 }
